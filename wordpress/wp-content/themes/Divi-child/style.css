@@ -28,6 +28,10 @@
 /* Hide Logo */
 /* Fullwidth Top Header */
 /* Hide Search Icon */
+.et_pb_post .post-content {
+  display: none !important;
+}
+
 /* Home page */
 .home-services .et_pb_main_blurb_image {
   margin-bottom: 0px;
