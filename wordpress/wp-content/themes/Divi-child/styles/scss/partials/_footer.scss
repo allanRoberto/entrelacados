@@ -1,0 +1,27 @@
+.et_pb_gutters3 .footer-widget {
+	margin-bottom : 0px !important;
+}
+
+.badge-footer .et_pb_row{
+	padding : 20px 5% !important;
+}
+
+.badge-footer .primary-title {
+ top : 48px !important;
+}
+
+.img-badge-footer {
+	float : left;
+	width : 15%;
+	margin : 0 5% !important;
+}
+
+.img-badge-footer img {
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+.img-badge-footer img:hover {
+	-webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+}

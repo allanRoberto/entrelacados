@@ -1,0 +1,46 @@
+.home-services .et_pb_main_blurb_image {
+	margin-bottom : 0px;
+}
+
+.home-services .et_pb_blurb h4 {
+	font-family: 'Poppins', sans-serif !important;
+	font-weight : 900;
+	text-transform : uppercase;
+	color : #8dc9c1;
+}
+
+.primary-title {
+  display : table;
+  margin: auto;
+  top : 12px;
+  position: relative;
+} 
+
+.primary-title h1 {
+	font-family : 'Poppins', sans-serif !important;
+	font-weight : 900;
+	display: table;
+    float: left;
+    font-size: 26px;
+    font-weight: 900;
+    color: #e35563;
+    border-bottom: 4px solid #e35563;
+    padding-bottom: 2px !important; 
+}
+
+.primary-title:after{
+	content: "";
+    background: url(img/icon-title.png) left top no-repeat;
+    width: 115px;
+    height: 43px;
+    float: left;
+    display: table;
+    top: -19px;
+    position: relative;
+    border-bottom: 4px solid #8dc9c1;
+    padding-bottom: 4px;
+}
+
+#text-3 {
+	width : 100% !important;
+}
