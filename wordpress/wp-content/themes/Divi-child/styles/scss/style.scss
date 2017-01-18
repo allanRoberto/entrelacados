@@ -39,44 +39,6 @@ body {}
 @import "partials/footer";
 
 
-.et_pb_blurb_container {
-  overflow: hidden;
-  position: relative;
-  line-height: 1.9em;
-  max-height: 7.1em; 
-  text-align: center;
-  margin-right: -1em;
-  padding-right: 1em;
-  &:after {
-    content: '';
-    position: absolute;
-    right: 0;
-    width: 1em;
-    height: 1em;
-    margin-top: 0.2em;
-    background : #fff;
-  } 
-}
-
-.et_pb_blurb_content:after {
-    content: "Ver mais";
-    background: #89d1c5;
-    color: #fff;
-    padding: 10px;
-    top: 21px;
-    position: relative;
-    border-radius: 10px;
-    cursor: pointer;
-}
-
-.et_pb_blurb_content:hover:after {
-content : none;
-}
-
-.et_pb_blurb_content:hover .et_pb_blurb_container {
-    max-height : inherit !important;
-}
-
 .owl-carousel-item-imgoverlay {
 display : none;
 }
@@ -92,6 +54,19 @@ display : none;
     top: 50% !important;
     margin-top: -15px !important;
     width : 100%;
+}
+
+.et_pb_column_4_4 .et_pb_grid_item {
+    height : 190px;
+    overflow : hidden;
+}
+
+.mfp-bottom-bar {
+    display : none;
+}
+
+.et_pb_blurb_content {
+    max-width : 1024px !important;
 }
 
 .owl-carousel .owl-item {
