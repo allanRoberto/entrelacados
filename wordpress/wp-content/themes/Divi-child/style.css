@@ -111,4 +111,89 @@
   filter: grayscale(0%);
 }
 
+.et_pb_blurb_container {
+  overflow: hidden;
+  position: relative;
+  line-height: 1.9em;
+  max-height: 7.1em;
+  text-align: center;
+  margin-right: -1em;
+  padding-right: 1em;
+}
+.et_pb_blurb_container:after {
+  content: '';
+  position: absolute;
+  right: 0;
+  width: 1em;
+  height: 1em;
+  margin-top: 0.2em;
+  background: #fff;
+}
+
+.et_pb_blurb_content:after {
+  content: "Ver mais";
+  background: #89d1c5;
+  color: #fff;
+  padding: 10px;
+  top: 21px;
+  position: relative;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.et_pb_blurb_content:hover:after {
+  content: none;
+}
+
+.et_pb_blurb_content:hover .et_pb_blurb_container {
+  max-height: inherit !important;
+}
+
+.owl-carousel-item-imgoverlay {
+  display: none;
+}
+
+.owl-pagination {
+  display: none !important;
+}
+
+.owl-theme .owl-controls {
+  margin-top: 10px;
+  text-align: center;
+  position: absolute !important;
+  z-index: 99999999 !important;
+  top: 50% !important;
+  margin-top: -15px !important;
+  width: 100%;
+}
+
+.owl-carousel .owl-item {
+  border: 5px solid #fff !important;
+}
+
+.owl-prev {
+  max-width: 256px;
+  max-height: 256px;
+  float: left !important;
+  background-image: url("img/prev-arrow.png") !important;
+  text-indent: -999999px !important;
+  height: 32px !important;
+  width: 32px !important;
+  margin-top: -2px !important;
+  background-color: transparent !important;
+}
+
+.owl-next {
+  background-color: transparent !important;
+  width: 32px !important;
+  text-indent: -99999px !important;
+  max-width: 256px !important;
+  max-height: 256px;
+  background-image: url("img/next-arrow.png") !important;
+  height: 32px !important;
+  position: relative;
+  float: right !important;
+  margin-top: -4px !important;
+}
+
 /*# sourceMappingURL=style.css.map */
